@@ -1,22 +1,135 @@
-.App {
-  text-align: center;
+.Main {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+/*font-size*/
+.font-s {
+    font-size: 0.7em;
+    padding: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-m {
+    font-size: 0.9em;
+    padding: 1px;
 }
 
-.App-link {
-  color: #09d3ac;
+.header {
+    background-color: #000000;
+    color: white;
+    height: 40px;
+}
+
+.header p {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.bannar img {
+    width: 100%;
+}
+
+.sub-container {
+    width: 90%;
+    padding-top: 20px;
+    margin-left: 5%;
+    min-height: 300px;
+}
+
+.item-area {
+    float: left;
+    margin: 10px;
+    width: 20%;
+}
+
+.item {
+    width: 50px;
+    height: 70px;
+}
+
+.item img {
+    margin: 1px;
+    width: 70px;
+}
+
+.simple-tag {
+    margin-top: 30px;
+    margin-left: 10%;
+    display: inline-block;
+    width: 60%;
+
+    color: cornflowerblue;
+}
+
+.content-text {
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+
+.content-img {
+    margin-top: 15px;
+    width: 40%;
+}
+
+.career-area {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.career-area p {
+    margin-left: 20%;
+}
+
+.service-area {
+    margin-top: 110px;
+    width: 100%;
+    flloat: left;
+
+}
+
+.service-block {
+    width: 30%;
+    float: left;
+}
+
+.service-block-center {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.service-block p.service-name {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.service-block img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    background-color: beige;
+}
+
+.footer-info{
+    width:35%;
+    margin-top:20px;
+    margin-left:10%;
+    float:left
+}
+.footer-sns{
+    width:35%;
+    margin-top:20px;
+    margin-left:10%;
+    float:left
 }
